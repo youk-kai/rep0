@@ -36,9 +36,9 @@ last digit (neg.) minus 1, per
 
 '''
 
-def irr_gen(x):
+def irr_gen(upto):
     irr_list = []
-    for i in range(1, x + 1):
+    for i in range(1, upto + 1):
         if i < 10:
             i_trans = dc(i * 10**(-i))
         else:
